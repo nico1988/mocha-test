@@ -1,5 +1,8 @@
 module.exports = {
     sayHello: function(){
-        return 1
+        return 'hello'
+    },
+    addNumbers: function(val1,val2){
+        return +val1 + +val2
     }
 }
